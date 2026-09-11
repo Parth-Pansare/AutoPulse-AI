@@ -1,7 +1,8 @@
 package com.autopulse.backend.entity;
 
 import jakarta.persistence.*;
-
+import java.util.ArrayList;
+import java.util.List;
 import java.time.Instant;
 import java.util.UUID;
 
@@ -39,6 +40,13 @@ public class User {
         createdAt = now;
         updatedAt = now;
     }
+
+    @OneToMany(
+            mappedBy = "user",
+            cascade = CascadeType.ALL,
+            orphanRemoval = true
+    )
+    private List<Vehicle> vehicles = new ArrayList<>();
 
     @PreUpdate
     protected void onUpdate() {
