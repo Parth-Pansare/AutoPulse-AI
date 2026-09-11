@@ -1,0 +1,113 @@
+:root {
+  /* =====================================================
+     AUTOPULSE AI - COLOR SYSTEM
+     ===================================================== */
+
+  --ap-bg-primary: #030914;
+  --ap-bg-secondary: #050d1a;
+  --ap-bg-tertiary: #081426;
+
+  --ap-card: #091628;
+  --ap-card-hover: #0c1b30;
+
+  --ap-border: rgba(37, 115, 158, 0.28);
+  --ap-border-light: rgba(75, 140, 180, 0.16);
+
+  /* Primary cyan */
+  --ap-cyan: #12b8f3;
+  --ap-cyan-bright: #00c8ff;
+  --ap-cyan-dark: #078bc2;
+
+  /* Secondary orange */
+  --ap-orange: #ff7a18;
+  --ap-orange-bright: #ff8d2a;
+
+  /* Status colors */
+  --ap-success: #12d6a1;
+  --ap-warning: #ffc400;
+  --ap-danger: #ff4d5e;
+  --ap-info: #25a9ff;
+
+  /* Text */
+  --ap-text-primary: #f5f9ff;
+  --ap-text-secondary: #91a7bf;
+  --ap-text-muted: #607995;
+  --ap-text-disabled: #3e536b;
+
+  /* =====================================================
+     TYPOGRAPHY
+     ===================================================== */
+
+  --ap-font-primary: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --ap-font-display: "Rajdhani", "Orbitron", Inter, "Segoe UI", sans-serif;
+
+  /* Font sizes */
+
+  --ap-text-xs: 10px;
+  --ap-text-sm: 12px;
+  --ap-text-md: 14px;
+  --ap-text-lg: 16px;
+  --ap-text-xl: 20px;
+  --ap-text-2xl: 24px;
+  --ap-text-3xl: 32px;
+  --ap-text-4xl: 42px;
+  --ap-text-hero: 72px;
+
+  /* =====================================================
+     SPACING
+     ===================================================== */
+
+  --ap-space-1: 4px;
+  --ap-space-2: 8px;
+  --ap-space-3: 12px;
+  --ap-space-4: 16px;
+  --ap-space-5: 20px;
+  --ap-space-6: 24px;
+  --ap-space-8: 32px;
+  --ap-space-10: 40px;
+  --ap-space-12: 48px;
+  --ap-space-16: 64px;
+
+  /* =====================================================
+     BORDER RADIUS
+     ===================================================== */
+
+  --ap-radius-sm: 6px;
+  --ap-radius-md: 9px;
+  --ap-radius-lg: 12px;
+  --ap-radius-xl: 16px;
+  --ap-radius-2xl: 20px;
+  --ap-radius-pill: 999px;
+
+  /* =====================================================
+     SHADOWS
+     ===================================================== */
+
+  --ap-shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.18);
+
+  --ap-shadow-md: 0 10px 30px rgba(0, 0, 0, 0.28);
+
+  --ap-shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.38);
+
+  --ap-glow-cyan: 0 0 30px rgba(18, 184, 243, 0.18);
+
+  --ap-glow-orange: 0 0 30px rgba(255, 122, 24, 0.15);
+
+  /* =====================================================
+     LAYOUT
+     ===================================================== */
+
+  --ap-sidebar-width: 210px;
+  --ap-navbar-height: 56px;
+
+  --ap-content-max-width: 1600px;
+
+  /* =====================================================
+     TRANSITIONS
+     ===================================================== */
+
+  --ap-transition-fast: 150ms ease;
+  --ap-transition-normal: 250ms ease;
+  --ap-transition-slow: 400ms ease;
+}
