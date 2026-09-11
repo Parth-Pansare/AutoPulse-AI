@@ -1,6 +1,0 @@
-import { Activity, Bell, Bot, CarFront, ClipboardCheck, Gauge, LayoutDashboard, Settings, Wrench } from 'lucide-react';
-
-type Page = string;
-interface Props { page: Page; onNavigate:(page:Page)=>void; }
-const items=[['dashboard','Dashboard',LayoutDashboard],['vehicle','My Vehicle',CarFront],['diagnostics','Diagnostics',Gauge],['maintenance','Maintenance',Wrench],['alerts','Alerts',Bell],['ai','AI Assistant',Bot]] as const;
-export default function Sidebar({page,onNavigate}:Props){return <aside className="sidebar"><div className="sidebar-brand"><div className="app-icon"><Activity size={18}/></div><div><b>AutoPulse <span>AI</span></b><small>VEHICLE INTELLIGENCE</small></div></div><div className="sidebar-label">COMMAND CENTER</div><nav>{items.map(([id,label,Icon])=><button key={id} className={page===id?'side-link active':'side-link'} onClick={()=>onNavigate(id)}><Icon size={18}/><span>{label}</span>{id==='alerts'&&<em>2</em>}</button>)}</nav><div className="sidebar-bottom"><button className={page==='settings'?'side-link active':'side-link'} onClick={()=>onNavigate('settings')}><Settings size={18}/><span>Settings</span></button><div className="profile-mini"><div className="avatar">P</div><div><b>Vehicle Owner</b><small>Connected</small></div></div></div></aside>}
