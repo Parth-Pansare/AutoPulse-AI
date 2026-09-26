@@ -21,7 +21,7 @@ frontend/.git-frontend-backup/
 .idea/
 *.iml
 
-# Environment / secrets
+# Environment / secrets 
 .env
 .env.*
 !.env.example
