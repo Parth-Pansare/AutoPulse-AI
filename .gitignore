@@ -14,6 +14,11 @@ autopulse-backend/target/
 autopulse-backend/.idea/
 autopulse-backend/*.iml
 
+# Local frontend migration backup
+frontend-backup/
+
+# Local frontend design/source archive
+Design AutoPulse AI App.zip
 
 frontend/.git-frontend-backup/
 
